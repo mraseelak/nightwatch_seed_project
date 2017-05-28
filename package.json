@@ -1,0 +1,19 @@
+{
+  "name": "test_project",
+  "version": "1.0.0",
+  "description": "test Project or nightwatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minimum": "nightwatch"
+  },
+  "author": "raseel",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "chromedriver": "^2.29.0",
+    "nightwatch": "^0.9.15",
+    "nightwatch-html-reporter": "^2.0.2",
+    "selenium-standalone": "^6.4.1"
+  }
+}
